@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="393dp"
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_action_lock"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        tools:ignore="AutoFill"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:layout_marginLeft="0dp"
+        android:layout_alignLeft="@+id/editText1" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="@string/username"
+        android:textColor="#fff"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        tools:ignore="AutoFill"
+        android:drawableLeft="@drawable/ic_action_user" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="326dp"
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_action_lock"
+        android:ems="10"
+        android:hint="@string/password"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        tools:ignore="AutoFill"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:layout_marginLeft="0dp"
+        android:layout_alignLeft="@+id/editText1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="138dp"
+        android:background="@drawable/rounded_buttons"
+        android:onClick="btnRegister"
+        android:text="@string/register"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp"
+        android:clickable="true"
+        android:onClick="clkText"
+        android:text="@string/member"
+        android:textSize="14sp"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>
